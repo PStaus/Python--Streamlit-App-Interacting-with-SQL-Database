@@ -13,6 +13,7 @@ Expanding the SQL project https://github.com/PStaus/SQL-Music-Instrument-Rental-
 ![pyodbc](https://img.shields.io/badge/pyodbc-Database%20Connector-orange)
 ![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
+![PyCharm](https://img.shields.io/badge/PyCharm-IDE-000000?logo=pycharm&logoColor=white)
 
 ---
 

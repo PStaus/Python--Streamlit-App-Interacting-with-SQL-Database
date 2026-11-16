@@ -1,21 +1,18 @@
-# 🎵 Musical Instrument Rental Dashboard
+# 🎵 Musical Instrument Rental Dashboard and User Interface
 
-\<p align="center">
-&#x20; \<strong>
+
 &#x20;   An interactive dashboard for managing and analyzing musical instrument rentals.
-&#x20; \</strong>
-&#x20; \<br>
-&#x20; Built with Python, Streamlit, Plotly and Microsoft SQL Server.
-\</p>
+Expanding the SQL project https://github.com/PStaus/SQL-Music-Instrument-Rental-Projekt 
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.x-blue?logo=python](https://img.shields.io/badge/Python-3.x-blue?logo=python)" alt="Python"/>
-&#x20; \<img src="[https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)" alt="Streamlit"/>
-&#x20; \<img src="[https://img.shields.io/badge/Microsoft%20SQL%20Server-Database-CC2927?logo=microsoftsqlserver](https://img.shields.io/badge/Microsoft%20SQL%20Server-Database-CC2927?logo=microsoftsqlserver)" alt="Microsoft SQL Server"/>
-&#x20; \<img src="[https://img.shields.io/badge/pyodbc-Database%20Connector-orange](https://img.shields.io/badge/pyodbc-Database%20Connector-orange)" alt="pyodbc"/>
-&#x20; \<img src="[https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly)" alt="Plotly"/>
-&#x20; \<img src="[https://img.shields.io/badge/Matplotlib-Visualization-blue](https://img.shields.io/badge/Matplotlib-Visualization-blue)" alt="Matplotlib"/>
-\</p>
+&#x20; Built with Python, Streamlit, Plotly and Microsoft SQL Server.
+
+
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-CC2927?logo=microsoftsqlserver)
+![pyodbc](https://img.shields.io/badge/pyodbc-Database%20Connector-orange)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
 
 ---
 
@@ -26,6 +23,8 @@ The Musical Instrument Rental Dashboard is an interactive Streamlit application 
 The dashboard combines test data and information retrieved from a Microsoft SQL Server database. It calculates key business metrics, visualizes rental and customer data, and provides functionality for checking instrument availability for a selected booking date.
 
 The application is designed to make rental information easier to understand and to provide a clear overview of important business figures.
+<img width="605" height="796" alt="grafik" src="https://github.com/user-attachments/assets/8d9b3d00-1ae9-42b1-bbac-35c59236bdeb" />
+
 
 ## ✨ Key Features
 
@@ -60,6 +59,9 @@ Users can:
 
 The availability calculation is implemented in `calculations.py`. It checks whether the selected date falls within an instrument's rental period. If an actual return date is not available, the planned return date is considered.
 
+<img width="599" height="514" alt="grafik" src="https://github.com/user-attachments/assets/c79e8e49-71cc-4cda-82f6-46daf4951670" />
+
+
 ### 3. Database Dashboard
 
 The second dashboard tab retrieves data from the Microsoft SQL Server database.
@@ -75,6 +77,9 @@ The dashboard also includes two customer-related views:
 - **Customer List:** Displays the customer records retrieved from the database.
 - **Customer Groups:** Visualizes the distribution of customers by customer type using a Plotly bar chart.
 
+<img width="635" height="751" alt="grafik" src="https://github.com/user-attachments/assets/9eae283a-ab47-42f6-8007-e2654bdde7c6" />
+
+
 ### 4. Adding New Customers
 
 The database dashboard allows users to add a new music band to the SQL Server database.
@@ -88,6 +93,10 @@ The application:
 5. Displays a confirmation message after successful insertion.
 
 ---
+<img width="680" height="631" alt="grafik" src="https://github.com/user-attachments/assets/76409488-3821-4a6a-b1ef-245bf518c58b" />
+
+<img width="624" height="475" alt="grafik" src="https://github.com/user-attachments/assets/19fb0908-cfb7-4669-bca7-0a68df09ef3e" />
+
 
 ## 🛠️ Technologies Used
 
@@ -246,11 +255,7 @@ Key learning objectives include:
 
 Potential extensions of the application include:
 
-- Adding new rental bookings directly through the dashboard.
-- Extending customer management functionality.
-- Improving the instrument availability interface.
-- Adding more detailed revenue and rental trend analyses.
-- Introducing additional filters for customers, instruments and rental periods.
+- Adding additional user interface for implemented SQL database logic
 - Improving error handling and input validation.
 
 ## 👩‍💻 Author

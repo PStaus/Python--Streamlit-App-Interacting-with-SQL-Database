@@ -4,8 +4,6 @@
 &#x20;   An interactive dashboard for managing and analyzing musical instrument rentals.
 Expanding the SQL project https://github.com/PStaus/SQL-Music-Instrument-Rental-Projekt 
 
-&#x20; Built with Python, Streamlit, Plotly and Microsoft SQL Server.
-
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)
@@ -13,7 +11,8 @@ Expanding the SQL project https://github.com/PStaus/SQL-Music-Instrument-Rental-
 ![pyodbc](https://img.shields.io/badge/pyodbc-Database%20Connector-orange)
 ![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
-![PyCharm]([https://img.shields.io/badge/IDE-PYCHARM-green)])
+![PyCharm](https://img.shields.io/badge/PyCharm-IDE-3DEA62?logo=pycharm&logoColor=white)
+
 
 ---
 

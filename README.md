@@ -182,48 +182,6 @@ flowchart TD
     J --> K[Interactive Dashboard]
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-To run the application, you need:
-
-- Python installed on your computer.
-- The required Python packages.
-- Microsoft SQL Server access for the database functionality.
-
-### 1. Clone the Repository
-
-```bash
-git clone <YOUR-REPOSITORY-URL>
-cd <YOUR-PROJECT-FOLDER>
-```
-
-### 2. Install Dependencies
-
-Install the required Python packages:
-
-```bash
-pip install streamlit pandas plotly matplotlib pyodbc
-```
-
-### 3. Configure the Database Connection
-
-The database functionality requires a working connection to Microsoft SQL Server.
-
-Make sure that the connection settings in `databank_connection.py` are configured for your database environment.
-
-The database dashboard requires access to the relevant database tables and views.
-
-### 4. Run the Application
-
-Open a terminal in the project directory and execute:
-
-```bash
-streamlit run dashboard_app.py
-```
-
-The Streamlit dashboard will open in your standard web browser.
 
 ## 📊 Dashboard Overview
 
